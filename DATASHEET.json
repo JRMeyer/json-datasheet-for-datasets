@@ -17,7 +17,7 @@
 	    "response": ""
 	},
 	"support": {
-	    "prompt": "What support was needed to make this dataset?** (e.g. who funded the creation of the dataset? If there is an associated grant, provide the name of the grantor and the grant name and number, or if it was supported by a company or government agency, give those details.)",
+	    "prompt": "What support was needed to make this dataset? (e.g. who funded the creation of the dataset? If there is an associated grant, provide the name of the grantor and the grant name and number, or if it was supported by a company or government agency, give those details.)",
 	    "response": ""
 	},
 	"comments": {
@@ -177,17 +177,17 @@
 	    "response": ""
 	}
     },
-    "uses": {
+    "tasks": {
 	"readme": "These questions are intended to encourage dataset creators to reflect on the tasks  for  which  the  dataset  should  and  should  not  be  used.  By  explicitly highlighting these tasks, dataset creators can help dataset consumers to make informed decisions, thereby avoiding potential risks or harms.",
-	"used": {
+	"past": {
 	    "prompt": "Has the dataset been used for any tasks already? If so, please provide a description.",
 	    "response": ""
 	},
 	"repo": {
-	    "prompt": "Is there a repository that links to any or all papers or systems that use the dataset?** If so, please provide a link or other access point.",
+	    "prompt": "Is there a repository that links to any or all papers or systems that use the dataset? If so, please provide a link or other access point.",
 	    "response": ""
 	},
-	"tasks": {
+	"possible": {
 	    "prompt": "What (other) tasks could the dataset be used for?",
 	    "response": ""
 	},
